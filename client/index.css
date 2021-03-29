@@ -1,0 +1,27 @@
+
+#h-1{
+    background-color: brown;
+    float:none;
+}
+#html-id
+{
+    background-color: green;
+}
+#h1{
+    font-size: xx-large;
+    background-color: maroon;
+    color: beige;
+}
+
+
+#div-1{
+    display:inline-block;
+    font-size: x-large;
+    color: black;
+}
+
+#h2
+{
+    color: aliceblue;
+    background-color: rgb(87, 2, 2);
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Farmer add crop details page</title>
+  </head>
+  <body>
+     <br>
+    <button type="button" class="btn btn-warning btn-lg"> <a href="./index.html">Home</a> </button><br>
+   <br>
+        <h1 id="h1">ADD CROP DETAILS</h1>
+          <div id="div-1">
+            <br>
+            <label for="">Crop type</label>
+
+            <select name="crops" id="ctype-id">
+              <option value="0">Jawar</option>
+              <option value="1">Bajara</option>
+              <option value="2">Wheat</option>
+              <option value="3">Groundnut</option>
+            </select> <br><br>
+
+            <label for="">Crop quantity (in KG)</label>
+            <input type="number" id="cqnt-id" required value="0" min="1"> <br><br>
+            <label for="">Place</label>
+            <input type="text" id="cplace-id" required value="place"> <br><br>
+            <br>
+            <button type="submit" id="fadd-b">ADD</button>
+        </div> <br><br>
+
+        <button type="button" class="btn btn-secondary btn-lg"><a style="color: azure;" href="./farmerLogin1page8.html">My home page</a></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./node_modules/web3/dist/web3.min.js"></script>
+    <script type="text/javascript" src="./artifacts/AgriBlockAbi.js"></script>
+    <script type="text/javascript" src="./artifacts/AgriBlockAddress.js"></script>
+    <script src="addCropDetails.js"></script>
+    <link rel="stylesheet" href="./index.css">
+  </body>
+</html>
